@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project</title>
+    <!-- CSS links-->
+    <link rel="stylesheet" href="assets/style/main.css">
+    <link rel="stylesheet" href="assets/style/about.css">
+    <link rel="stylesheet" href="assets/style/contact.css">
+    <link rel="stylesheet" href="assets/style/service.css">
+    <!-- Font Awsome -->
+    <link rel="stylesheet" href="assets/fontawesome/fontawesome-free-6.2.1-web/css/all.css">
+
+</head>
+<body>
+    <!-- Header Section -->
+    <section class="c-header">
+        <nav>
+            <a href="index.html"><img src="assets/img/logo.png" alt="pink box with purple rectangle and Design It text"></a>
+            <div class="navigation-links" id="navLink">
+                <i class="fa-solid fa-arrow-left" onclick="hideMenu()"></i>
+                <!-- Navigation -->
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <i class="fa-sharp fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav><!--End of navigation -->
+        <h1 class="c-h1">Get in touch!</h1>
+        <!-- Contact form-->
+        <section class="contactus">
+            <div class="row">
+                <div class="contact-col">
+                    <div>
+                        <i class="fa-sharp fa-solid fa-location-dot"></i>
+                        <span>
+                            <h3>Address</h3>
+                            <p>Kiro Krstevski Platnik num.18<br>
+                            Skopje, Republic of North Macedonia</p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-phone"></i>
+                        <span>
+                            <h3>Phone</h3>
+                            <p>+38970000000</p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>
+                            <h3>Email</h3>
+                            <p>designIT@design.it</p>
+                        </span>
+                    </div>
+                </div>
+                <!-- Contact form input -->
+                <div class="contact-col">
+
+                    <form action="">
+                        <input type="text" placeholder="Enter your name" required>
+                        <input type="text" placeholder="Enter your mail" required>
+                        <textarea rows="8" placeholder="Enter your message" required></textarea>
+                        <button type="submit" class="hero-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+     <!-- Footer -->
+     <section class="footer">
+        <div class="social-links">
+            <ul>
+                <li class="social-items"><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li class="social-items"><a href="#"><i class="fa-brands fa-square-behance"></i></a></li>
+                <li class="social-items"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            </ul>
+        </div>
+        <p>	&#174; Designed & Developed by Emilija Perchinkova, 2022</p>
+    </section>
+    <!-- Menu script -->
+    <script>
+        var navLink = document.getElementById("navLink");
+        function showMenu(){
+            navLink.style.right = "0";
+        }
+        function hideMenu(){
+            navLink.style.right = "-375.2px";
+        }
+    </script>
+    
+</body>
+</html>

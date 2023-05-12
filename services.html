@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project</title>
+    <!-- CSS link-->
+    <link rel="stylesheet" href="assets/style/main.css">
+    <link rel="stylesheet" href="assets/style/service.css">
+    <!-- Font Awsome -->
+    <link rel="stylesheet" href="assets/fontawesome/fontawesome-free-6.2.1-web/css/all.css">
+</head>
+<body>
+     <!-- Header Section -->
+     <section class="header-ser">
+        <nav>
+            <a href="index.html"><img src="assets/img/logo.png" alt="pink box with purple rectangle and Design It text"></a>
+            <div class="navigation-links" id="navLink">
+                <i class="fa-solid fa-arrow-left" onclick="hideMenu()"></i>
+                <!-- Navigation -->
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <i class="fa-sharp fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav><!--End of navigation -->
+
+        <div class="service-banner">
+            <div class="container">
+
+                <!-- Banner image right-->
+                <div class="banner-img"><img src="assets/img/banner-img.jpg"></div>
+            </div>
+
+            <!-- Content left-->
+            <div class="row">
+                <div class="left col-sm-6 col-12">
+                <h1 class="heading">Design is not just how it looks, design is how it works.</h1>
+                <div class="par">
+                    <p>We are masters of uniqe design and superlative user experience.
+                        Working together with the client, we will bring value to your product and we will also 
+                    complete the clients requirements. </p>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- Main content -->
+        <section class="services">
+            <!-- Top row -->
+            <div class="row">
+                <div class="service-col">
+                    <div class="serv-img">
+                        <img src="assets/img/service1.jpg" alt="a photo of a paper with a drawing and creative text">
+                    </div>
+                    <h3>Creative & Experience Design</h3>
+                    <p>Our creative design process involves using computer-generated imagery and digital animation to visualise a product. 
+                        We aim to produce unique and memorable designs that stand out so that customers may easily identify a brand or product.
+                    </p>
+                </div>
+                <div class="service-col">
+                    <div class="serv-img">
+                        <img src="assets/img/service2.jpg">
+                    </div>
+                    <h3>Startegy & Insights</h3>
+                    <p>We provide insight driven consultancy that helps businesses build and refine their brand and marketing strategies. We conduct qualitative research that 
+                        contributes to the profitability of our clients by identifying clear customer insights built upon why.
+                    </p>
+                </div>
+                <div class="service-col">
+                    <div class="serv-img">
+                        <img src="assets/img/service3.jpg">
+                    <h3>Data Analytics & Insights </h3>
+                        <p> We have deep understanding for individuals or organization gains from analyzing information on a particular issue. 
+                            This deep understanding helps organizations make better decisions than by relying on
+                            gut instinct.</p>
+                    </div>
+                </div>
+            </div>
+
+
+        <!-- Bottom row -->
+            <div class="row">
+                <div class="service-col">
+                    <div class="serv-img">
+                        <img src="assets/img/service4.jpg" alt="">
+                    </div>
+                    <h3>Marketing Strategy</h3>
+                    <p> We will provide you with a long-term plan for achieving a company's goals by understanding <br>
+                        the needs of customers and creating a distinct and sustainable competitive advantage. 
+                        Our service encompasses everything from determining who your customers are to deciding what channels you use to reach those customers.
+                    </p>
+                </div>
+                <!-- Service five -->
+                <div class="service-col">
+                    <div class="serv-img">
+                        <img src="assets/img/service5.jpg">
+                    </div>
+                    <h3>Content Creation</h3>
+                    <p> Our content team will generate topic ideas that appeal to your buyer persona, creating written or visual content around those ideas, and making that information accessible
+                        to your audience as a blog, video, infographic, or other content formats.</p>
+                </div>
+                <!-- Service six-->
+                <div class="service-col">
+                    <div class="serv-img">
+                        <img src="assets/img/service6.jpg">
+                    <h3>Visual Design & Product delivery </h3>
+                    <p> The product-design and delivery process will successfully execute the design, test, and release of good products. 
+                        Our deisgners have a great eye for design so in the end we will do everything for you, from reasearch to market product placement.</p>
+                    </div>
+                </div>
+            </div>
+            <a href="contact.html" class="hero-btn">Get Quote</a>
+            <br>
+            <br>
+            <br>
+            <br>
+        </section>
+        
+     <!-- Footer -->
+     <section class="footer">
+        <div class="social-links">
+            <ul>
+                <li class="social-items"><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li class="social-items"><a href="#"><i class="fa-brands fa-square-behance"></i></a></li>
+                <li class="social-items"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            </ul>
+        </div>
+        <p>	&#174; Designed & Developed by Emilija Perchinkova, 2022</p>
+    </section>
+
+        <!-- Menu script -->
+        <script>
+            var navLink = document.getElementById("navLink");
+            function showMenu(){
+                navLink.style.right = "0";
+            }
+            function hideMenu(){
+                navLink.style.right = "-375.2px";
+            }
+        </script>
+    
+</body>
+</html>

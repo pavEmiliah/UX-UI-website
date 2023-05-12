@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project</title>
+    <!-- CSS links-->
+    <link rel="stylesheet" href="assets/style/main.css">
+    <link rel="stylesheet" href="assets/style/about.css">
+    <!-- Font Awsome -->
+    <link rel="stylesheet" href="assets/fontawesome/fontawesome-free-6.2.1-web/css/all.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&family=Roboto:wght@700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+     <!-- Header Section -->
+    <section class="about-header">
+        <nav>
+            <a href="index.html"><img src="assets/img/logo.png" alt="pink box with purple rectangle and Design It text"></a>
+            <div class="navigation-links" id="navLink">
+                <i class="fa-solid fa-arrow-left" onclick="hideMenu()"></i>
+                <!-- Navigation -->
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <i class="fa-sharp fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav><!--End of navigation -->
+        <!-- About Us section -->
+        <div class="about-us">
+            <h1 class="about-h1">Get to know us! Our mission and our passions!</h1>
+        </div>
+    </section>
+            <!-- Ceo Section -->
+            <div class="wrap">
+                <div class="about-content">
+                    <h3 class="about-h3">Hera Paxton, CEO </h3>
+                    <p class="about-p">When your dream comes other people helping hand. My name is Hera Paxton and I am CEO of Design IT company. Our company
+                        was eastablished 2019 year, and we had our ups and downs throu the years, but we always cross the finish
+                        line like a winners. We are user-cenetered design company, which values the great aestehticks, but our main 
+                        focus is on the user experience. If you like to know more, hit the button below.
+                    </p>
+                        <!-- Button -->
+                         <a href="contact.html" class="hero-btn">Contact Us</a>
+                </div>
+                <!-- Design Lead Section -->
+                <div class="about-img">
+                    <img src="assets/img/Hera Paxton.png" alt="CEO">
+                </div>
+            </div>
+            <div class="wrap-lead">
+                <div class="about-content">
+                    <h3 class="about-h3">Sam Baglush, Lead Designer</h3>
+                    <p class="about-p"> As a Lead Designer of Design It company I know that Leadership is much more an art, a belief, a condition of the heart,than a set of things to do.. 
+                        <br>We're dedicated to providing you the best of Design, with a focus on dependability and UX/UI Services. We're working to turn our passion for Design into a booming online website. We hope you enjoy our Design as much as we enjoy offering <br>them to you.
+                     If you need a quote, hit the button below.
+                    </p>
+                        <!-- Button -->
+                         <a href="contact.html" class="hero-btn">Get Quote</a>
+                </div>
+                <div class="about-img">
+                    <img src="assets/img/Sam Baglush.png" alt="photo of an idian man lead designer">
+                </div>
+            </div>
+
+ <!-- Footer -->
+    <section class="footer">
+        <!-- Social Icons -->
+        <div class="social-links">
+            <ul>
+                <li class="social-items"><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li class="social-items"><a href="#"><i class="fa-brands fa-square-behance"></i></a></li>
+                <li class="social-items"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            </ul>
+        </div>
+        <p>	&#174; Designed & Developed by Emilija Perchinkova, 2022</p>
+    </section>
+        <!-- Menu script -->
+        <script>
+            var navLink = document.getElementById("navLink");
+            function showMenu(){
+                navLink.style.right = "0";
+            }
+            function hideMenu(){
+                navLink.style.right = "-375.2px";
+            }
+        </script>
+    
+</body>
+</html>
